@@ -2,8 +2,8 @@
   //this extends means it is inheriting the setting available in base.json file present in packages so that we dont have to write it again and again
   "extends": "@repo/typescript-config/base.json",
   "compilerOptions": {
-    "lib": ["ES2015"],
-    "outDir": "./dist"
+    "outDir": "./dist",
+    "rootDir": "./src"
   },
   "exclude": ["node_modules"],
   "include": ["."]
