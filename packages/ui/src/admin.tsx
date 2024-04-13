@@ -1,7 +1,7 @@
 
 const admin = () => {
   return (
-    <div>admin Page</div>
+    <div>admin Page from ui packages</div>
   )
 }
 
