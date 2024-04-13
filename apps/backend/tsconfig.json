@@ -5,6 +5,12 @@
     "outDir": "./dist",
     "rootDir": "./src"
   },
-  "exclude": ["node_modules"],
-  "include": ["."]
+  "include": [
+      "./**/*"
+  ],
+  "exclude": [
+      "./plugins/**/*",
+      "./typings/**/*",
+      "./dist/**/*" // This is what fixed it!
+  ]
 }
